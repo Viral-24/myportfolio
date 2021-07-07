@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;	
+	font-family: 'Lato', sans-serif;
+	background-color: #edf9fe;
+}
+/**/
+#imgname{
+	margin-top: 20px;
+}
+#mynav{
+	box-shadow: none;
+	float: right;
+}
+.nav-item{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.nav-item a{
+	text-decoration: none;
+} 
+.nav-item a:hover{
+	text-decoration: none;
+} 
+#navbarSupportedContent{
+	float: right;
+}
+
+/**/
+#projectlist{
+	margin-top: 80px;
+}
+#div1{
+	margin-top: 50px;
+}
+.col-6 h1{
+	color: navy;
+	text-align: center;
+	margin-top: 100px;
+}
+.col-6 h5{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 25px;
+}
+#title{
+	color: navy;
+	font-size: 30px;
+	text-align: center;
+}
+#subheading{
+	
+	font-size: 25px;
+}
+/**/
+#mycard{
+	border-radius: 10px;
+}
+.card-body{
+	border-radius: 10px;
+	background-color: #9cd7f7;
+	cursor: pointer;
+}
+.card-body *{
+	background-color: #9cd7f7;
+}
+#btn1{
+	background-color: navy;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.projectlink{
+	color: black;
+	text-decoration: none
+}
+.projectlink:hover{
+	text-decoration: none
+}
+.projectlink:visited{
+	color: black;
+}
+/**/
+@media only screen and (max-width: 480px){
+	#imgname{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+		margin-top: 0;
+		width:60%;
+		margin-top: 20px;
+	}
+	#mynav{
+	float: none;
+	}
+	/**/
+	#title{
+		font-size: 50px;
+		text-align: center;
+	}
+	#subheading{
+		font-size: 20px;
+		text-align: justify;
+		line-height: 30px;
+	}
+	.card-title{
+		font-size: 20px;	
+	}
+	.card-text{
+		font-size: 15px;
+	}
+}
+
